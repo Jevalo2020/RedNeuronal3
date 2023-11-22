@@ -22,7 +22,7 @@ modelo.compile(
 )
 
 print("comenzando entrenamiento....")
-historial = modelo.fit(celsius, fahrenheit, epochs=1000, verbose=False)
+historial = modelo.fit(celsius, fahrenheit, epochs=500, verbose=False)
 print("modelo entrenado!")
 
 import matplotlib.pyplot as plt
